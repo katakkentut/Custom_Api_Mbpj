@@ -4,7 +4,7 @@ EXTENDED VERSION FROM IDD ESERVICES MBPJ API DATA ADUAN [20220921]
 ## Table of contents
 * [Overview](#overview)
 * [Objective](#objective)
-* [Feauture](#features)
+* [Feature](#features)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Usage](#usage)
@@ -56,9 +56,9 @@ docker ps -a
 ## Usage
 * Make a Get Request To The API With valid Mbpj Token:
 ```
-http://<server_ip>:60015/<valid_mbpj_token>/api?rid=<rid_value>”)
+curl "http://<server_ip>:60015/<valid_mbpj_token>/api?rid=<rid_value>”
 ```
 * Make a Get Request To The API with Optional Parameter:
 ```
-http://<server_ip>:60015/<valid_mbpj_token>/api?rid=<rid_value>&year=<input_year>&month=<input_month>”)
+curl "http://<server_ip>:60015/<valid_mbpj_token>/api?rid=<rid_value>&year=<input_year>&month=<input_month>”
 ```
