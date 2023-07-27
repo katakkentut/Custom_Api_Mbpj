@@ -18,14 +18,12 @@ The primary objective of this project is to bridge the gap between the existing 
 
 * Custom API Endpoint: The application provides a dedicated API endpoint designed to accept requests for MBPJ data conversion.
 * Data Conversion: Upon receiving a request, the custom API performs the necessary data conversion from the official MBPJ API's JSON format to the supported JSON format for "My Map" application consumption.
-* Authentication (Optional): The custom API offers an optional authentication mechanism to ensure secure access and data privacy if required.
-
-
 	
 ## Technologies
 Project is created with:
 * Python Flask
 * Python Requests Library
+* Docker Container
 	
 ## Setup
 To run this project, install it locally using npm:
