@@ -33,8 +33,8 @@ Project is created with:
 Step by step to deploy this project:
 
 * Clone Project:
-```bash
-foo@bar:~$ git clone https://github.com/katakkentut/Custom_Api_Mbpj.git
+```cmd
+git clone https://github.com/katakkentut/Custom_Api_Mbpj.git
 ```
 * Build Container:
 ```bash
