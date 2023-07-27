@@ -48,3 +48,14 @@ docker run --name <specify_any_container_name> -d -p 60015:60015 <replace_with_t
 ```
 docker ps -a
 ```
+## Usage
+* Make a Get Request To The API With valid Mbpj Token:
+```
+http://<server_ip>:60015/<valid_mbpj_token>/api?rid=<rid_value>”)
+```
+* Make a Get Request To The API with Optional Parameter:
+```
+http://<server_ip>:60015/<valid_mbpj_token>/api?rid=<rid_value>&year=<input_year>&month=<input_month>”)
+```
+
+
