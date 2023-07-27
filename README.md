@@ -33,32 +33,32 @@ Project is created with:
 Step by step to deploy this project:
 
 * Clone Project:
-```php
+```console
 git clone https://github.com/katakkentut/Custom_Api_Mbpj.git
 ```
 * Build Container:
-```
+```console
 docker build -t <specify_any_tag_name> .
 ```
 * Verify Image:
-```
+```console
 docker images
 ```
 * Run The Container:
-```
+```console
 docker run --name <specify_any_container_name> -d -p 60015:60015 <replace_with_tag_name_before>
 ```
 * Verify The Container is Running:
-```
+```console
 docker ps -a
 ```
 
 ## Usage
 * Make a Get Request To The API With valid Mbpj Token:
-```
+```console
 curl "http://<server_ip>:60015/<valid_mbpj_token>/api?rid=<rid_value>”
 ```
 * Make a Get Request To The API with Optional Parameter:
-```
+```console
 curl "http://<server_ip>:60015/<valid_mbpj_token>/api?rid=<rid_value>&year=<input_year>&month=<input_month>”
 ```
