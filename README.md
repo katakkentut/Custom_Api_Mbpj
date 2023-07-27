@@ -6,7 +6,7 @@ EXTENDED VERSION FROM IDD ESERVICES MBPJ API DATA ADUAN [20220921]
 * [Objective](#objective)
 * [Features](#features)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Deployment](#deployment)
 * [Usage](#usage)
   
 ## Overview
@@ -29,7 +29,7 @@ Project is created with:
 * Docker Container
 
 	
-## Setup
+## Deployment
 Step by step to deploy this project:
 
 * Clone Project:
