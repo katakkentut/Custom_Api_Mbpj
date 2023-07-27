@@ -1,5 +1,5 @@
 # Custom_Api_Mbpj
-EXTENDED FROM IDD ESERVICES MBPJ API DATA ADUAN [20220921] 
+EXTENDED VERSION FROM IDD ESERVICES MBPJ API DATA ADUAN [20220921] 
 
 ## Table of contents
 * [Overview](#overview)
@@ -26,9 +26,9 @@ Project is created with:
 * Docker Container
 	
 ## Setup
-To run this project locally:
+Step by step to deploy this project:
 
+* Clone Project
 ```
 ~ git clone https://github.com/katakkentut/Custom_Api_Mbpj.git
-
 ```
