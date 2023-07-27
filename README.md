@@ -5,7 +5,10 @@ EXTENDED VERSION FROM IDD ESERVICES MBPJ API DATA ADUAN [20220921]
 * [Overview](#overview)
 * [Objective](#objective)
 * [Feauture](#features)
-
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Usage](#usage)
+  
 ## Overview
 
 This project presents a custom API application designed to convert the official MBPJ (Majlis Bandaraya Petaling Jaya) API's unsupported JSON format into a supported JSON format. The purpose of this conversion is to make the data accessible and compatible with the "My Map" application, enabling seamless integration and utilization of MBPJ data in the application.
@@ -24,16 +27,6 @@ Project is created with:
 * Python Flask
 * Python Requests Library
 * Docker Container
-
-## Usage
-* Make a Get Request To The API With valid Mbpj Token:
-```
-http://<server_ip>:60015/<valid_mbpj_token>/api?rid=<rid_value>”)
-```
-* Make a Get Request To The API with Optional Parameter:
-```
-http://<server_ip>:60015/<valid_mbpj_token>/api?rid=<rid_value>&year=<input_year>&month=<input_month>”)
-```
 
 	
 ## Setup
@@ -60,4 +53,12 @@ docker run --name <specify_any_container_name> -d -p 60015:60015 <replace_with_t
 docker ps -a
 ```
 
-
+## Usage
+* Make a Get Request To The API With valid Mbpj Token:
+```
+http://<server_ip>:60015/<valid_mbpj_token>/api?rid=<rid_value>”)
+```
+* Make a Get Request To The API with Optional Parameter:
+```
+http://<server_ip>:60015/<valid_mbpj_token>/api?rid=<rid_value>&year=<input_year>&month=<input_month>”)
+```
