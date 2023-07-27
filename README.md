@@ -4,7 +4,7 @@ EXTENDED VERSION FROM IDD ESERVICES MBPJ API DATA ADUAN [20220921]
 ## Table of contents
 * [Overview](#overview)
 * [Objective](#objective)
-* [Feature](#features)
+* [Features](#features)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Usage](#usage)
