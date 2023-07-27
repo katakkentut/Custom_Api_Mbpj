@@ -30,21 +30,21 @@ Step by step to deploy this project:
 
 * Clone Project:
 ```
- git clone https://github.com/katakkentut/Custom_Api_Mbpj.git
+git clone https://github.com/katakkentut/Custom_Api_Mbpj.git
 ```
 * Build Container:
 ```
-~ docker build -t <specify_any_tag_name> .
+docker build -t <specify_any_tag_name> .
 ```
 * Verify Image:
 ```
-~ docker images
+docker images
 ```
 * Run The Container:
 ```
-~ docker run --name <specify_any_container_name> -d -p 60015:60015 <replace_with_tag_name_before>
+docker run --name <specify_any_container_name> -d -p 60015:60015 <replace_with_tag_name_before>
 ```
 * Verify The Container is Running:
 ```
-~ docker ps -a
+docker ps -a
 ```
