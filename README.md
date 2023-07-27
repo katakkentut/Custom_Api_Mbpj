@@ -28,5 +28,7 @@ Project is created with:
 ## Setup
 To run this project locally:
 
-```git clone https://github.com/katakkentut/Custom_Api_Mbpj.git
+```
+git clone https://github.com/katakkentut/Custom_Api_Mbpj.git
+
 ```
