@@ -2,12 +2,25 @@
 EXTENDED FROM IDD ESERVICES MBPJ API DATA ADUAN [20220921] 
 
 ## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+* [Overview](#overview)
+* [Objective](#objective)
+* [Feauture](#features)
 
-## General info
-This project is custom API application for converting offical MBPJ API unsupported Json format to supported Json format to be use by My Map application.
+## Overview
+
+This project presents a custom API application designed to convert the official MBPJ (Majlis Bandaraya Petaling Jaya) API's unsupported JSON format into a supported JSON format. The purpose of this conversion is to make the data accessible and compatible with the "My Map" application, enabling seamless integration and utilization of MBPJ data in the application.
+
+## Objective
+
+The primary objective of this project is to bridge the gap between the existing MBPJ API's JSON format and the specific JSON format required by the "My Map" application. By converting the data into the supported format, we ensure that the "My Map" application can efficiently consume and display the MBPJ data without any compatibility issues.
+
+## Features
+
+* Custom API Endpoint: The application provides a dedicated API endpoint designed to accept requests for MBPJ data conversion.
+* Data Conversion: Upon receiving a request, the custom API performs the necessary data conversion from the official MBPJ API's JSON format to the supported JSON format for "My Map" application consumption.
+* Authentication (Optional): The custom API offers an optional authentication mechanism to ensure secure access and data privacy if required.
+
+
 	
 ## Technologies
 Project is created with:
