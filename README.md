@@ -34,7 +34,7 @@ Step by step to deploy this project:
 
 * Clone Project:
 ```console
-git clone https://github.com/katakkentut/Custom_Api_Mbpj.git
+foo@bar:~$ git clone https://github.com/katakkentut/Custom_Api_Mbpj.git
 ```
 * Build Container:
 ```console
